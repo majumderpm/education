@@ -75,5 +75,29 @@ responsive start here
 }
 
 @media (max-width: 767px){
-
+    .text-capitalize.text-white.fs-1.mb-3 {
+        font-size: 20px !important;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        width: inherit;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 2rem 2rem;
+    }
+    .mb-5 {
+        margin-bottom: 0!important;
+    }
+    .text-left{
+        text-align: center;
+     }
+     .float-end{
+          text-align: center;
+          margin: auto;
+     }
+     .join_part .d-md-flex{
+        display: contents;
+     } 
 }
