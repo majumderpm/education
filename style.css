@@ -33,4 +33,47 @@ p{
     bottom: 30%;
     z-index: 2;
 }
-.populer
+
+
+
+/* -----------------------------
+
+responsive start here
+
+----------------------------------- */
+@media (max-width: 991px){
+    .text-capitalize.text-white.fs-1.mb-3 {
+        font-size: 26px !important;
+    }
+    .carousel-caption {
+        bottom: 12%;
+        z-index: 2;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .card {
+        max-width: 100% !important;
+    }
+    .mt-5 {
+        margin-top: 0 !important;
+    }
+    .populer .col-lg-6.col-md-12.mt-5.mb-3 {
+        margin-bottom: 0!important;
+    }
+   .text-left{
+      text-align: center;
+   }
+   .float-end{
+        text-align: center;
+        margin: auto;
+   }
+   .populer .top_content .text-center {
+        text-align: center!important;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px){
+
+}
