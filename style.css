@@ -33,7 +33,9 @@ p{
     bottom: 30%;
     z-index: 2;
 }
-
+.text-right{
+    text-align: right;
+}
 
 
 /* -----------------------------
@@ -64,13 +66,16 @@ responsive start here
    .text-left{
       text-align: center;
    }
-   .float-end{
-        text-align: center;
-        margin: auto;
-   }
+  
+   .text-right{
+    text-align:  center;
+}
    .populer .top_content .text-center {
         text-align: center!important;
         margin-bottom: 50px;
+    }
+    .students .card{
+        width: 100% !important;
     }
 }
 
